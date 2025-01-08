@@ -233,80 +233,85 @@
 
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <div class="form-container">
-        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
 
         <!-- Sección 2: Datos de Filiación 1-->
         <div class="section">
-            <h1>Formulario Médico</h1>
-            <h2>Datos de Filiación</h2>
-            <div class="form-group">
-                <label for="nombres">Nombres y Apellidos</label>
-                <input type="text" id="nombres" name="nombres" placeholder="Ingrese sus nombres y apellidos">
-            </div>
-            <div class="form-group">
-                <label for="edad">Edad</label>
-                <input type="number" id="edad" name="edad" placeholder="Ingrese su edad">
-            </div>
-            <div class="form-group">
-                <label for="sexo">Sexo</label>
-                <select id="sexo" name="sexo">
-                    <option value="">Seleccione una opción</option>
-                    <option value="hombre">Hombre</option>
-                    <option value="mujer">Mujer</option>
-                    <option value="otro">Otro</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="raza">Raza</label>
-                <input type="text" id="raza" name="raza" placeholder="Ingrese su raza">
-            </div>
-            <div class="form-group">
-                <label for="religion">Religión</label>
-                <input type="text" id="religion" name="religion" placeholder="Ingrese su religión">
-            </div>
-            <div class="form-group">
-                <label for="estado_civil">Estado Civil</label>
-                <select id="estado_civil" name="estado_civil">
-                    <option value="">Seleccione una opción</option>
-                    <option value="soltero">Soltero</option>
-                    <option value="casado">Casado</option>
-                    <option value="divorciado">Divorciado</option>
-                    <option value="viudo">Viudo</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="profesion">Profesión</label>
-                <input type="text" id="profesion" name="profesion" placeholder="Ingrese su profesión">
-            </div>
-            <div class="form-group">
-                <label for="instruccion">Instrucción</label>
-                <input type="text" id="instruccion" name="instruccion" placeholder="Ingrese su nivel de instrucción">
-            </div>
-            <div class="form-group">
-                <label for="lugar_nacimiento">Lugar de nacimiento</label>
-                <input type="text" id="lugar_nacimiento" name="lugar_nacimiento"
-                    placeholder="Ingrese su lugar de nacimiento">
-            </div>
-            <div class="form-group">
-                <label for="residencia">Residencia ocasional y habitual</label>
-                <input type="text" id="residencia" name="residencia" placeholder="Ingrese su residencia">
-            </div>
-            <div class="form-group">
-                <label for="telefono">Teléfono</label>
-                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono">
-            </div>
-            <div class="form-group">
-                <label for="tipologia_sanguinea">Tipología Sanguínea</label>
-                <input type="text" id="tipologia_sanguinea" name="tipologia_sanguinea"
-                    placeholder="Ingrese su tipología sanguínea">
-            </div>
-            <div class="form-group">
-                <label for="asegurado">Asegurado</label>
-                <input type="text" id="asegurado" name="asegurado" placeholder="Ingrese si está asegurado">
-            </div>
-            <div class="form-group">
-                <label for="observacion1">¿Qué observación relevante hicimos?</label>
-                <input type="text" id="observacion1" name="observacion1" placeholder="Escriba la observación">
+
+            <h1>Historia clinica obstetrica</h1>
+            <button id="expand-images" class="expandable-button light-blue">Datos de Filiación</button>
+            <div id="image-container" class="content">
+                <h2>Datos de Filiación</h2>
+                <div class="form-group">
+                    <label for="nombres">Nombres y Apellidos</label>
+                    <input type="text" id="nombres" name="nombres" placeholder="Ingrese sus nombres y apellidos">
+                </div>
+                <div class="form-group">
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" name="edad" placeholder="Ingrese su edad">
+                </div>
+                <div class="form-group">
+                    <label for="sexo">Sexo</label>
+                    <select id="sexo" name="sexo">
+                        <option value="">Seleccione una opción</option>
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="raza">Raza</label>
+                    <input type="text" id="raza" name="raza" placeholder="Ingrese su raza">
+                </div>
+                <div class="form-group">
+                    <label for="religion">Religión</label>
+                    <input type="text" id="religion" name="religion" placeholder="Ingrese su religión">
+                </div>
+                <div class="form-group">
+                    <label for="estado_civil">Estado Civil</label>
+                    <select id="estado_civil" name="estado_civil">
+                        <option value="">Seleccione una opción</option>
+                        <option value="soltero">Soltero</option>
+                        <option value="casado">Casado</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="viudo">Viudo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="profesion">Profesión</label>
+                    <input type="text" id="profesion" name="profesion" placeholder="Ingrese su profesión">
+                </div>
+                <div class="form-group">
+                    <label for="instruccion">Instrucción</label>
+                    <input type="text" id="instruccion" name="instruccion"
+                        placeholder="Ingrese su nivel de instrucción">
+                </div>
+                <div class="form-group">
+                    <label for="lugar_nacimiento">Lugar de nacimiento</label>
+                    <input type="text" id="lugar_nacimiento" name="lugar_nacimiento"
+                        placeholder="Ingrese su lugar de nacimiento">
+                </div>
+                <div class="form-group">
+                    <label for="residencia">Residencia ocasional y habitual</label>
+                    <input type="text" id="residencia" name="residencia" placeholder="Ingrese su residencia">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono">
+                </div>
+                <div class="form-group">
+                    <label for="tipologia_sanguinea">Tipología Sanguínea</label>
+                    <input type="text" id="tipologia_sanguinea" name="tipologia_sanguinea"
+                        placeholder="Ingrese su tipología sanguínea">
+                </div>
+                <div class="form-group">
+                    <label for="asegurado">Asegurado</label>
+                    <input type="text" id="asegurado" name="asegurado" placeholder="Ingrese si está asegurado">
+                </div>
+                <div class="form-group">
+                    <label for="observacion1">¿Qué observación relevante hicimos?</label>
+                    <input type="text" id="observacion1" name="observacion1" placeholder="Escriba la observación">
+                </div>
             </div>
 
         </div>
@@ -320,24 +325,7 @@
                     <textarea id="motivo_consulta" name="motivo_consulta"
                         placeholder="Describa el motivo de consulta"></textarea>
                 </div>
-                <div class="form-group">
-                    <label for="sintomas_inicio">¿Desde cuándo presenta los síntomas?</label>
-                    <textarea id="sintomas_inicio" name="sintomas_inicio"
-                        placeholder="Ingrese el tiempo desde que inició los síntomas"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="sintomas_embarazo">¿Algún síntoma asociado con el embarazo?</label>
-                    <textarea id="sintomas_embarazo" name="sintomas_embarazo"
-                        placeholder="Describa si hay síntomas relacionados con el embarazo"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="observacion2">¿Qué observación relevante hicimos?</label>
-                    <input type="text" id="observacion2" name="observacion2" placeholder="Escriba la observación">
-                </div>
-                <div class="form-group">
-                    <label for="observacion2">¿Qué observación relevante hicimos?</label>
-                    <input type="text" id="observacion2" name="observacion2" placeholder="Escriba la observación">
-                </div>
+
             </div>
         </div>
         <!-- Sección 4: Anamnesis 3 -->
@@ -395,106 +383,150 @@
                 </div>
             </div>
         </div>
-        <!-- Sección 5: Enfermedad Actual 4-->
+        <!-- Sección 5: Enfermedad Actual18 puntos de dolor  4-->
         <div class="section">
-            <button id="expand-images" class="expandable-button light-blue">Enfermedad Actual </button>
-            <div id="image-container" class="content">
-                <h2>Enfermedad Actual</h2>
-                <div class="form-group">
-                    <label for="inicio_sintomas">¿Cuándo comenzaron los síntomas actuales?</label>
-                    <textarea id="inicio_sintomas" name="inicio_sintomas"
-                        placeholder="Describa cuándo comenzaron los síntomas actuales"></textarea>
+            <button id="expand-images" class="expandable-button light-blue">enfermedad actual</button>
+            <div class="content">
+                <!-- Botón para expandir Dolor -->
+                <button class="expandable-button blue">DOLOR</button>
+                <div class="content">
+                    <h2>DOLOR</h2>
+                    <div class="form-group">
+                        <label for="inicio_dolor">¿Cuándo empezó el dolor?</label>
+                        <textarea id="inicio_dolor" name="inicio_dolor"
+                            placeholder="Describa cuándo empezó el dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="dolor_anterior">¿Nunca antes tuvo este dolor?</label>
+                        <textarea id="dolor_anterior" name="dolor_anterior"
+                            placeholder="Describa si ha tenido este dolor antes"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="intensidad_dolor">¿Es muy intenso el dolor?</label>
+                        <textarea id="intensidad_dolor" name="intensidad_dolor"
+                            placeholder="Describa la intensidad del dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="causa_dolor">¿Cuál cree que fue la causa para que le duela?</label>
+                        <textarea id="causa_dolor" name="causa_dolor"
+                            placeholder="Describa la posible causa del dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="nace_dolor">¿Dónde le nace el dolor?</label>
+                        <textarea id="nace_dolor" name="nace_dolor"
+                            placeholder="Describa el origen del dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="irradia_dolor">¿Hacia dónde se le va el dolor?</label>
+                        <textarea id="irradia_dolor" name="irradia_dolor"
+                            placeholder="Describa hacia dónde se irradia el dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="caracter_dolor">¿Cómo es el dolor?</label>
+                        <textarea id="caracter_dolor" name="caracter_dolor"
+                            placeholder="Describa las características del dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="otras_molestias">¿Qué otras molestias presenta?</label>
+                        <textarea id="otras_molestias" name="otras_molestias"
+                            placeholder="Describa otras molestias"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="hora_dolor">¿A qué hora aparece el dolor?</label>
+                        <textarea id="hora_dolor" name="hora_dolor"
+                            placeholder="Describa la hora de aparición del dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="dias_seguidos">¿El dolor le ha venido días seguidos?</label>
+                        <textarea id="dias_seguidos" name="dias_seguidos"
+                            placeholder="Describa si ha tenido el dolor varios días"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="alimentos_dolor">¿Ha notado si algún alimento alivia o aumenta el dolor?</label>
+                        <textarea id="alimentos_dolor" name="alimentos_dolor"
+                            placeholder="Describa la relación del dolor con alimentos"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="vomito_dolor">¿Qué le pasa al dolor cuando vomita?</label>
+                        <textarea id="vomito_dolor" name="vomito_dolor"
+                            placeholder="Describa el efecto del vómito sobre el dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="orina_dolor">¿Qué le pasa al dolor cuando orina?</label>
+                        <textarea id="orina_dolor" name="orina_dolor"
+                            placeholder="Describa el efecto de orinar sobre el dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="deposicion_dolor">¿Qué le pasa al dolor cuando hace la deposición?</label>
+                        <textarea id="deposicion_dolor" name="deposicion_dolor"
+                            placeholder="Describa el efecto de la deposición sobre el dolor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="posicion_dolor">¿Hay alguna posición que le aumente o alivie el dolor?</label>
+                        <textarea id="posicion_dolor" name="posicion_dolor"
+                            placeholder="Describa la relación del dolor con posiciones"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="medicamentos_dolor">¿Qué medicamentos ha tomado para aliviar este dolor?</label>
+                        <textarea id="medicamentos_dolor" name="medicamentos_dolor"
+                            placeholder="Describa los medicamentos tomados"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="cambio_horas_dolor">¿En las siguientes horas ha cambiado el dolor?</label>
+                        <textarea id="cambio_horas_dolor" name="cambio_horas_dolor"
+                            placeholder="Describa los cambios del dolor en horas"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="actual_dolor">Actualmente, ¿cómo se encuentra el dolor?</label>
+                        <textarea id="actual_dolor" name="actual_dolor"
+                            placeholder="Describa el estado actual del dolor"></textarea>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="evolucion">¿Cómo ha evolucionado desde entonces?</label>
-                    <textarea id="evolucion" name="evolucion"
-                        placeholder="Describa cómo han evolucionado los síntomas"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="medicamentos_tratamiento">¿Ha tomado algún medicamento o tratamiento?</label>
-                    <textarea id="medicamentos_tratamiento" name="medicamentos_tratamiento"
-                        placeholder="Describa los medicamentos o tratamientos que ha tomado"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="relacion_embarazo">¿Existe alguna relación con el embarazo?</label>
-                    <textarea id="relacion_embarazo" name="relacion_embarazo"
-                        placeholder="Indique si existe relación con el embarazo"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="observacion4">¿Qué observación relevante hicimos?</label>
-                    <input type="text" id="observacion4" name="observacion4" placeholder="Escriba la observación">
-                </div>
-            </div>
-        </div>
-        <!-- Sección 6: Revisión de Aparatos y Sistemas 5-->
-        <div class="section">
-            <button id="expand-images" class="expandable-button light-blue">Revisión de Aparatos y Sistemas</button>
-            <div id="image-container" class="content">
-                <h2>Revisión de Aparatos y Sistemas</h2>
-                <div class="form-group">
-                    <label for="respiratorio">Respiratorio</label>
-                    <textarea id="respiratorio" name="respiratorio"
-                        placeholder="Describa el estado del sistema respiratorio"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="circulatorio">Circulatorio</label>
-                    <textarea id="circulatorio" name="circulatorio"
-                        placeholder="Describa el estado del sistema circulatorio"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="digestivo">Digestivo</label>
-                    <textarea id="digestivo" name="digestivo"
-                        placeholder="Describa el estado del sistema digestivo"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="genito_urinario">Génito-urinario</label>
-                    <textarea id="genito_urinario" name="genito_urinario"
-                        placeholder="Describa el estado del sistema génito-urinario"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="nervioso">Nervioso</label>
-                    <textarea id="nervioso" name="nervioso"
-                        placeholder="Describa el estado del sistema nervioso"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="endocrino">Endocrino</label>
-                    <textarea id="endocrino" name="endocrino"
-                        placeholder="Describa el estado del sistema endocrino"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="mamas">Mamas</label>
-                    <textarea id="mamas" name="mamas" placeholder="Describa el estado de las mamas"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="locomotor">Locomotor</label>
-                    <textarea id="locomotor" name="locomotor"
-                        placeholder="Describa el estado del sistema locomotor"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="ocular">Ocular</label>
-                    <textarea id="ocular" name="ocular" placeholder="Describa el estado del sistema ocular"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="faringe">Faringe</label>
-                    <textarea id="faringe" name="faringe" placeholder="Describa el estado de la faringe"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="laringe">Laringe</label>
-                    <textarea id="laringe" name="laringe" placeholder="Describa el estado de la laringe"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="fosas_nasales">Fosas Nasales</label>
-                    <textarea id="fosas_nasales" name="fosas_nasales"
-                        placeholder="Describa el estado de las fosas nasales"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="auditivo">Auditivo</label>
-                    <textarea id="auditivo" name="auditivo"
-                        placeholder="Describa el estado del sistema auditivo"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="observacion5">¿Qué observación relevante hicimos?</label>
-                    <input type="text" id="observacion5" name="observacion5" placeholder="Escriba la observación">
+
+                <button class="expandable-button blue"> NO DOLOR</button>
+                <div class="content">
+                    <h2>NO DOLOR</h2>
+
+                    <div class="form-group">
+                        <label for="aparicion">Aparici&oacute;n</label>
+                        <input type="text" id="aparicion" name="aparicion" placeholder="Ingrese la aparici&oacute;n">
+                    </div>
+                    <div class="form-group">
+                        <label for="localizacion">Localizaci&oacute;n</label>
+                        <input type="text" id="localizacion" name="localizacion"
+                            placeholder="Ingrese la localizaci&oacute;n">
+                    </div>
+                    <div class="form-group">
+                        <label for="irradiacion">Irradiaci&oacute;n</label>
+                        <input type="text" id="irradiacion" name="irradiacion"
+                            placeholder="Ingrese la irradiaci&oacute;n">
+                    </div>
+                    <div class="form-group">
+                        <label for="causa_aparente">Causa aparente</label>
+                        <input type="text" id="causa_aparente" name="causa_aparente"
+                            placeholder="Ingrese la causa aparente">
+                    </div>
+                    <div class="form-group">
+                        <label for="intensidad">Intensidad</label>
+                        <input type="text" id="intensidad" name="intensidad" placeholder="Ingrese la intensidad">
+                    </div>
+                    <div class="form-group">
+                        <label for="agravantes">Agravantes</label>
+                        <input type="text" id="agravantes" name="agravantes" placeholder="Ingrese los agravantes">
+                    </div>
+                    <div class="form-group">
+                        <label for="frecuencia">Frecuencia</label>
+                        <input type="text" id="frecuencia" name="frecuencia" placeholder="Ingrese la frecuencia">
+                    </div>
+                    <div class="form-group">
+                        <label for="duracion">Duraci&oacute;n</label>
+                        <input type="text" id="duracion" name="duracion" placeholder="Ingrese la duraci&oacute;n">
+                    </div>
+                    <div class="form-group">
+                        <label for="sintomas_acompanantes">S&iacute;ntomas acompa&ntilde;antes</label>
+                        <input type="text" id="sintomas_acompanantes" name="sintomas_acompanantes"
+                            placeholder="Ingrese los s&iacute;ntomas acompa&ntilde;antes">
+                    </div>
                 </div>
             </div>
         </div>
@@ -830,119 +862,204 @@
                 <h2>Examen Físico</h2>
 
                 <!-- Signos Vitales -->
-                <h3>a.- Signos Vitales</h3>
-                <div class="form-group">
-                    <label for="tension_arterial">Tensión arterial</label>
-                    <input type="text" id="tension_arterial" name="tension_arterial"
-                        placeholder="Ingrese la tensión arterial">
-                </div>
-                <div class="form-group">
-                    <label for="pulso">Pulso</label>
-                    <input type="text" id="pulso" name="pulso" placeholder="Ingrese el pulso">
-                </div>
-                <div class="form-group">
-                    <label for="frecuencia_respiratoria">Frecuencia respiratoria</label>
-                    <input type="text" id="frecuencia_respiratoria" name="frecuencia_respiratoria"
-                        placeholder="Ingrese la frecuencia respiratoria">
-                </div>
-                <div class="form-group">
-                    <label for="temperatura">Temperatura</label>
-                    <input type="text" id="temperatura" name="temperatura" placeholder="Ingrese la temperatura">
-                </div>
-                <div class="form-group">
-                    <label for="glucosa">Glucosa</label>
-                    <input type="text" id="glucosa" name="glucosa" placeholder="Ingrese los niveles de glucosa">
-                </div>
-                <div class="form-group">
-                    <label for="imc">IMC</label>
-                    <input type="text" id="imc" name="imc" placeholder="Ingrese el IMC">
-                </div>
-                <div class="form-group">
-                    <label for="observacion12">¿Qué observación relevante hicimos?</label>
-                    <input type="text" id="observacion12" name="observacion12" placeholder="Escriba la observación">
+                <button class="expandable-button blue">a.- Signos Vitales</button>
+                <div class="content">
+                    <h3>a.- Signos Vitales</h3>
+                    <div class="form-group">
+                        <label for="tension_arterial">Tensión arterial</label>
+                        <input type="text" id="tension_arterial" name="tension_arterial"
+                            placeholder="Ingrese la tensión arterial">
+                    </div>
+                    <div class="form-group">
+                        <label for="pulso">Pulso</label>
+                        <input type="text" id="pulso" name="pulso" placeholder="Ingrese el pulso">
+                    </div>
+                    <div class="form-group">
+                        <label for="frecuencia_respiratoria">Frecuencia respiratoria</label>
+                        <input type="text" id="frecuencia_respiratoria" name="frecuencia_respiratoria"
+                            placeholder="Ingrese la frecuencia respiratoria">
+                    </div>
+                    <div class="form-group">
+                        <label for="temperatura">Temperatura</label>
+                        <input type="text" id="temperatura" name="temperatura" placeholder="Ingrese la temperatura">
+                    </div>
+                    <div class="form-group">
+                        <label for="glucosa">Glucosa</label>
+                        <input type="text" id="glucosa" name="glucosa" placeholder="Ingrese los niveles de glucosa">
+                    </div>
+                    <div class="form-group">
+                        <label for="imc">IMC</label>
+                        <input type="text" id="imc" name="imc" placeholder="Ingrese el IMC">
+                    </div>
+                    <div class="form-group">
+                        <label for="observacion12">¿Qué observación relevante hicimos?</label>
+                        <input type="text" id="observacion12" name="observacion12" placeholder="Escriba la observación">
+                    </div>
                 </div>
 
 
                 <!-- Examen Físico General -->
-                <h3>b.- Examen Físico General</h3>
-                <div class="form-group">
-                    <label for="estado_conciencia">Estado de conciencia</label>
-                    <input type="text" id="estado_conciencia" name="estado_conciencia"
-                        placeholder="Describa el estado de conciencia">
-                </div>
-                <div class="form-group">
-                    <label for="hidratacion">Hidratación</label>
-                    <input type="text" id="hidratacion" name="hidratacion"
-                        placeholder="Describa el estado de hidratación">
-                </div>
-                <div class="form-group">
-                    <label for="coloracion_piel">Coloración de piel y mucosas</label>
-                    <input type="text" id="coloracion_piel" name="coloracion_piel" placeholder="Describa la coloración">
-                </div>
-                <div class="form-group">
-                    <label for="observacion13">¿Qué observación relevante hicimos?</label>
-                    <input type="text" id="observacion13" name="observacion13" placeholder="Escriba la observación">
+                <button class="expandable-button blue">b.- Examen Físico General</button>
+                <div class="content">
+                    <h3>b.- Examen Físico General</h3>
+                    <div class="form-group">
+                        <label for="estado_conciencia">Estado de conciencia</label>
+                        <input type="text" id="estado_conciencia" name="estado_conciencia"
+                            placeholder="Describa el estado de conciencia">
+                    </div>
+                    <div class="form-group">
+                        <label for="hidratacion">Hidratación</label>
+                        <input type="text" id="hidratacion" name="hidratacion"
+                            placeholder="Describa el estado de hidratación">
+                    </div>
+                    <div class="form-group">
+                        <label for="coloracion_piel">Coloración de piel y mucosas</label>
+                        <input type="text" id="coloracion_piel" name="coloracion_piel"
+                            placeholder="Describa la coloración">
+                    </div>
+                    <div class="form-group">
+                        <label for="observacion13">¿Qué observación relevante hicimos?</label>
+                        <input type="text" id="observacion13" name="observacion13" placeholder="Escriba la observación">
+                    </div>
                 </div>
 
                 <!-- Examen Físico Regional -->
-                <h3>c.- Examen Físico Regional</h3>
-                <div class="form-group">
-                    <label for="cabeza_cuello">Cabeza y cuello</label>
-                    <input type="text" id="cabeza_cuello" name="cabeza_cuello"
-                        placeholder="Describa el examen de cabeza y cuello">
-                </div>
-                <div class="form-group">
-                    <label for="torax">Torax</label>
-                    <input type="text" id="torax" name="torax" placeholder="Describa el examen de torax">
-                </div>
-                <div class="form-group">
-                    <label for="abdomen">Abdomen</label>
-                    <input type="text" id="abdomen" name="abdomen" placeholder="Describa el examen de abdomen">
-                </div>
-                <div class="form-group">
-                    <label for="extremidades">Extremidades</label>
-                    <input type="text" id="extremidades" name="extremidades"
-                        placeholder="Describa el examen de extremidades">
-                </div>
-                <div class="form-group">
-                    <label for="observacion14">¿Qué observación relevante hicimos?</label>
-                    <input type="text" id="observacion14" name="observacion14" placeholder="Escriba la observación">
+                <button class="expandable-button blue">c.- Examen Físico Regional</button>
+                <div class="content">
+                    <h3>c.- Examen Físico Regional</h3>
+                    <div class="form-group">
+                        <label for="cabeza_cuello">Cabeza y cuello</label>
+                        <input type="text" id="cabeza_cuello" name="cabeza_cuello"
+                            placeholder="Describa el examen de cabeza y cuello">
+                    </div>
+                    <div class="form-group">
+                        <label for="torax">Torax</label>
+                        <input type="text" id="torax" name="torax" placeholder="Describa el examen de torax">
+                    </div>
+                    <div class="form-group">
+                        <label for="abdomen">Abdomen</label>
+                        <input type="text" id="abdomen" name="abdomen" placeholder="Describa el examen de abdomen">
+                    </div>
+                    <div class="form-group">
+                        <label for="extremidades">Extremidades</label>
+                        <input type="text" id="extremidades" name="extremidades"
+                            placeholder="Describa el examen de extremidades">
+                    </div>
+                    <div class="form-group">
+                        <label for="observacion14">Talla</label>
+                        <input type="text" id="observacion14" name="observacion14" placeholder="Escriba la observación">
+                    </div>
                 </div>
 
                 <!-- Examen Físico Gineco-obstétrico -->
-                <h3>d.- Examen Físico Gineco-obstétrico</h3>
+                <button class="expandable-button blue">d.- Examen Físico Gineco-obstétrico</button>
+                <div class="content">
+                    <h3>d.- Examen Físico Gineco-obstétrico</h3>
+                    <div class="form-group">
+                        <label for="semana_12">>12 sem (N/A, Frecuencia cardiaca fetal)</label>
+                        <select id="semana_12" name="semana_12">
+                            <option value="na">N/A</option>
+                            <option value="frecuencia">Frecuencia cardiaca fetal</option>
+                        </select>
+                        <input type="text" id="frecuencia_fetal" name="frecuencia_fetal"
+                            placeholder="Ingrese los resultados si es necesario">
+                    </div>
+                    <div class="form-group">
+                        <label for="semana_20">>20 sem (N/A, Altura uterina, movimiento fetal)</label>
+                        <select id="semana_20" name="semana_20">
+                            <option value="na">N/A</option>
+                            <option value="altura_uterina">Altura uterina</option>
+                            <option value="movimiento_fetal">Movimiento fetal</option>
+                        </select>
+                        <input type="text" id="altura_uterina" name="altura_uterina"
+                            placeholder="Ingrese la altura uterina o movimiento fetal">
+                    </div>
+                    <div class="form-group">
+                        <label for="semana_28">>28 sem (N/A, M. Leopol, peso fetal)</label>
+                        <select id="semana_28" name="semana_28">
+                            <option value="na">N/A</option>
+                            <option value="m_leopol">M. Leopol</option>
+                            <option value="peso_fetal">Peso fetal</option>
+                        </select>
+                        <input type="text" id="m_leopol" name="m_leopol"
+                            placeholder="Ingrese los resultados de M. Leopol o peso fetal">
+                    </div>
+                    <div class="form-group">
+                        <label for="observacion15">¿Qué observación relevante hicimos?</label>
+                        <input type="text" id="observacion15" name="observacion15" placeholder="Escriba la observación">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sección 6: Revisión de Aparatos y Sistemas 5-->
+        <div class="section">
+            <button id="expand-images" class="expandable-button light-blue">Revisión de Aparatos y Sistemas</button>
+            <div id="image-container" class="content">
+                <h2>Revisión de Aparatos y Sistemas</h2>
                 <div class="form-group">
-                    <label for="semana_12">>12 sem (N/A, Frecuencia cardiaca fetal)</label>
-                    <select id="semana_12" name="semana_12">
-                        <option value="na">N/A</option>
-                        <option value="frecuencia">Frecuencia cardiaca fetal</option>
-                    </select>
-                    <input type="text" id="frecuencia_fetal" name="frecuencia_fetal"
-                        placeholder="Ingrese los resultados si es necesario">
+                    <label for="respiratorio">Respiratorio</label>
+                    <textarea id="respiratorio" name="respiratorio"
+                        placeholder="Describa el estado del sistema respiratorio"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="semana_20">>20 sem (N/A, Altura uterina, movimiento fetal)</label>
-                    <select id="semana_20" name="semana_20">
-                        <option value="na">N/A</option>
-                        <option value="altura_uterina">Altura uterina</option>
-                        <option value="movimiento_fetal">Movimiento fetal</option>
-                    </select>
-                    <input type="text" id="altura_uterina" name="altura_uterina"
-                        placeholder="Ingrese la altura uterina o movimiento fetal">
+                    <label for="circulatorio">Circulatorio</label>
+                    <textarea id="circulatorio" name="circulatorio"
+                        placeholder="Describa el estado del sistema circulatorio"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="semana_28">>28 sem (N/A, M. Leopol, peso fetal)</label>
-                    <select id="semana_28" name="semana_28">
-                        <option value="na">N/A</option>
-                        <option value="m_leopol">M. Leopol</option>
-                        <option value="peso_fetal">Peso fetal</option>
-                    </select>
-                    <input type="text" id="m_leopol" name="m_leopol"
-                        placeholder="Ingrese los resultados de M. Leopol o peso fetal">
+                    <label for="digestivo">Digestivo</label>
+                    <textarea id="digestivo" name="digestivo"
+                        placeholder="Describa el estado del sistema digestivo"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="observacion15">¿Qué observación relevante hicimos?</label>
-                    <input type="text" id="observacion15" name="observacion15" placeholder="Escriba la observación">
+                    <label for="genito_urinario">Génito-urinario</label>
+                    <textarea id="genito_urinario" name="genito_urinario"
+                        placeholder="Describa el estado del sistema génito-urinario"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="nervioso">Nervioso</label>
+                    <textarea id="nervioso" name="nervioso"
+                        placeholder="Describa el estado del sistema nervioso"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="endocrino">Endocrino</label>
+                    <textarea id="endocrino" name="endocrino"
+                        placeholder="Describa el estado del sistema endocrino"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="mamas">Mamas</label>
+                    <textarea id="mamas" name="mamas" placeholder="Describa el estado de las mamas"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="locomotor">Locomotor</label>
+                    <textarea id="locomotor" name="locomotor"
+                        placeholder="Describa el estado del sistema locomotor"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="ocular">Ocular</label>
+                    <textarea id="ocular" name="ocular" placeholder="Describa el estado del sistema ocular"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="faringe">Faringe</label>
+                    <textarea id="faringe" name="faringe" placeholder="Describa el estado de la faringe"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="laringe">Laringe</label>
+                    <textarea id="laringe" name="laringe" placeholder="Describa el estado de la laringe"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="fosas_nasales">Fosas Nasales</label>
+                    <textarea id="fosas_nasales" name="fosas_nasales"
+                        placeholder="Describa el estado de las fosas nasales"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="auditivo">Auditivo</label>
+                    <textarea id="auditivo" name="auditivo"
+                        placeholder="Describa el estado del sistema auditivo"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="observacion5">¿Qué observación relevante hicimos?</label>
+                    <input type="text" id="observacion5" name="observacion5" placeholder="Escriba la observación">
                 </div>
             </div>
         </div>
@@ -1033,57 +1150,322 @@
                 </div>
             </div>
         </div>
+        <!-- Sección informativa: escore mama2 -->
+        <div class="section">
+            <button id="expand-images" class="expandable-button light-blue">Score mama</button>
+            <div id="image-container" class="content">
+                <h2>¿Labor de parto?</h2>
+
+                <!--boton -->
+                <button class="expandable-button blue">SI?</button>
+                <div class="content">
+                    <p>El Score MAMÁ evalúa el riesgo obstétrico en mujeres embarazadas y puérperas. Interpretación:</p>
+                    <ul>
+                        <li>0-2: Riesgo bajo</li>
+                        <li>3-4: Riesgo moderado</li>
+                        <li>5-8: Riesgo alto</li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="imagenes/mama.jpg" alt="Score MAMÁ" class="responsive-image">
+                    </div>
+                    <div class="form-group">
+                        <label for="observacion33">¿Qué observación relevante hicimos?</label>
+                        <input type="text" id="observacion33" name="observacion33" placeholder="Escriba la observación">
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Examenes complementarios por trimestre -->
+        <div class="section">
+            <button id="expand-images" class="expandable-button light-blue">Exámenes complementarios por trimestre
+            </button>
+            <div id="image-container" class="content">
+                <h2>¿Labor de parto?</h2>
+
+                <!--1 trimestre -->
+                <button class="expandable-button blue">Primer Trimestre</button>
+                <div class="content">
+                    <!-- Primer Trimestre -->
+                    <h3>1er Trimestre</h3>
+                    <div class="form-group">
+                        <label for="hemoglobina_1t">Hemoglobina</label>
+                        <textarea id="hemoglobina_1t" name="hemoglobina_1t"
+                            placeholder="Ingrese el valor de hemoglobina"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="hematocrito_1t">Hematocrito</label>
+                        <textarea id="hematocrito_1t" name="hematocrito_1t"
+                            placeholder="Ingrese el valor de hematocrito"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="plaquetas_1t">Plaquetas</label>
+                        <textarea id="plaquetas_1t" name="plaquetas_1t"
+                            placeholder="Ingrese el valor de plaquetas"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="leucocitos_1t">Leucocitos</label>
+                        <textarea id="leucocitos_1t" name="leucocitos_1t"
+                            placeholder="Ingrese el valor de leucocitos"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="eritrocitos_1t">Eritrocitos</label>
+                        <textarea id="eritrocitos_1t" name="eritrocitos_1t"
+                            placeholder="Ingrese el valor de eritrocitos"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="vih_1t">VIH</label>
+                        <textarea id="vih_1t" name="vih_1t" placeholder="Ingrese el resultado del VIH"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="grupo_sanguineo_1t">Grupo Sanguíneo - Factor Rh</label>
+                        <textarea id="grupo_sanguineo_1t" name="grupo_sanguineo_1t"
+                            placeholder="Ingrese el grupo sanguíneo y factor Rh"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="glucosa_1t">Glucosa en Ayunas</label>
+                        <textarea id="glucosa_1t" name="glucosa_1t"
+                            placeholder="Ingrese el valor de glucosa en ayunas"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="tgo_tgp_1t">TGO, TGP</label>
+                        <textarea id="tgo_tgp_1t" name="tgo_tgp_1t"
+                            placeholder="Ingrese los valores de TGO y TGP"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="torch_1t">TORCH</label>
+                        <textarea id="torch_1t" name="torch_1t" placeholder="Ingrese el resultado de TORCH"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="urocultivo_1t">Urocultivo</label>
+                        <textarea id="urocultivo_1t" name="urocultivo_1t"
+                            placeholder="Ingrese el resultado del urocultivo"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="creatinina_1t">Creatinina</label>
+                        <textarea id="creatinina_1t" name="creatinina_1t"
+                            placeholder="Ingrese el valor de creatinina"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="acido_urico_1t">Ácido Úrico</label>
+                        <textarea id="acido_urico_1t" name="acido_urico_1t"
+                            placeholder="Ingrese el valor de ácido úrico"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="hepatitis_bc_1t">Hepatitis B y C</label>
+                        <textarea id="hepatitis_bc_1t" name="hepatitis_bc_1t"
+                            placeholder="Ingrese los resultados de hepatitis B y C"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="vdrl_1t">VDRL</label>
+                        <textarea id="vdrl_1t" name="vdrl_1t" placeholder="Ingrese el resultado de VDRL"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="urea_1t">Urea</label>
+                        <textarea id="urea_1t" name="urea_1t" placeholder="Ingrese el valor de urea"></textarea>
+                    </div>
+
+                </div>
+                <!--2 trimestre -->
+                <button class="expandable-button blue">Segundo Trimestre</button>
+                <div class="content">
+                    <!-- Segundo Trimestre -->
+                    <h3>2do Trimestre</h3>
+                    <div class="form-group">
+                        <label for="hemoglobina_2t">Hemoglobina</label>
+                        <textarea id="hemoglobina_2t" name="hemoglobina_2t"
+                            placeholder="Ingrese el valor de hemoglobina"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="hematocrito_2t">Hematocrito</label>
+                        <textarea id="hematocrito_2t" name="hematocrito_2t"
+                            placeholder="Ingrese el valor de hematocrito"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="plaquetas_2t">Plaquetas</label>
+                        <textarea id="plaquetas_2t" name="plaquetas_2t"
+                            placeholder="Ingrese el valor de plaquetas"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="leucocitos_2t">Leucocitos</label>
+                        <textarea id="leucocitos_2t" name="leucocitos_2t"
+                            placeholder="Ingrese el valor de leucocitos"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="eritrocitos_2t">Eritrocitos</label>
+                        <textarea id="eritrocitos_2t" name="eritrocitos_2t"
+                            placeholder="Ingrese el valor de eritrocitos"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="glucosa_2t">Glucosa en Ayunas</label>
+                        <textarea id="glucosa_2t" name="glucosa_2t"
+                            placeholder="Ingrese el valor de glucosa en ayunas"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="ptgo_2t">PTGO</label>
+                        <textarea id="ptgo_2t" name="ptgo_2t" placeholder="Ingrese el valor de PTGO"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="vih_2t">VIH</label>
+                        <textarea id="vih_2t" name="vih_2t" placeholder="Ingrese el resultado del VIH"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="vdrl_2t">VDRL</label>
+                        <textarea id="vdrl_2t" name="vdrl_2t" placeholder="Ingrese el resultado de VDRL"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="hbsag_2t">HBsAg</label>
+                        <textarea id="hbsag_2t" name="hbsag_2t" placeholder="Ingrese el resultado de HBsAg"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="igg_igm_2t">IgG, IgM</label>
+                        <textarea id="igg_igm_2t" name="igg_igm_2t"
+                            placeholder="Ingrese los resultados de IgG e IgM"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="urocultivo_2t">Urocultivo</label>
+                        <textarea id="urocultivo_2t" name="urocultivo_2t"
+                            placeholder="Ingrese el resultado del urocultivo"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="eco_anatomico_2t">Eco Anatómico</label>
+                        <textarea id="eco_anatomico_2t" name="eco_anatomico_2t"
+                            placeholder="Ingrese el resultado del eco anatómico"></textarea>
+                    </div>
+
+
+                </div>
+                <!--3 trimestre -->
+                <button class="expandable-button blue">Tercer Trimestre</button>
+                <div class="content">
+                    <!-- Tercer Trimestre -->
+                    <h3>3er Trimestre</h3>
+                    <div class="form-group">
+                        <label for="hemoglobina_3t">Hemoglobina</label>
+                        <textarea id="hemoglobina_3t" name="hemoglobina_3t"
+                            placeholder="Ingrese el valor de hemoglobina"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="hematocrito_3t">Hematocrito</label>
+                        <textarea id="hematocrito_3t" name="hematocrito_3t"
+                            placeholder="Ingrese el valor de hematocrito"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="plaquetas_3t">Plaquetas</label>
+                        <textarea id="plaquetas_3t" name="plaquetas_3t"
+                            placeholder="Ingrese el valor de plaquetas"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="leucocitos_3t">Leucocitos</label>
+                        <textarea id="leucocitos_3t" name="leucocitos_3t"
+                            placeholder="Ingrese el valor de leucocitos"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="eritrocitos_3t">Eritrocitos</label>
+                        <textarea id="eritrocitos_3t" name="eritrocitos_3t"
+                            placeholder="Ingrese el valor de eritrocitos"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="emo_3t">EMO</label>
+                        <textarea id="emo_3t" name="emo_3t" placeholder="Ingrese el resultado del EMO"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="protrombina_3t">T. Protrombina</label>
+                        <textarea id="protrombina_3t" name="protrombina_3t"
+                            placeholder="Ingrese el valor de tiempo de protrombina"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="perfil_biofisico_3t">Perfil Biofísico Fetal (ILA 5-25, MFE)</label>
+                        <textarea id="perfil_biofisico_3t" name="perfil_biofisico_3t"
+                            placeholder="Ingrese el resultado del perfil biofísico fetal"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="streptococo_b_3t">Streptococo B</label>
+                        <textarea id="streptococo_b_3t" name="streptococo_b_3t"
+                            placeholder="Ingrese el resultado del Streptococo B"></textarea>
+                    </div>
+
+
+                </div>
+                <!--adicionales -->
+                <button class="expandable-button blue">Adicionales</button>
+                <div class="content">
+                    <h3>Adicionales</h3>
+                    <div class="form-group">
+                        <label for="doppler_obstetrico">Doppler Obstétrico</label>
+                        <textarea id="doppler_obstetrico" name="doppler_obstetrico"
+                            placeholder="Ingrese los resultados del Doppler obstétrico"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="amniocentesis">Amniocentesis</label>
+                        <textarea id="amniocentesis" name="amniocentesis"
+                            placeholder="Ingrese los resultados de la amniocentesis"></textarea>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
         <!-- Sección informativa: Exámenes y Enfermedades en el Embarazo -->
         <div class="section">
-            <button id="expand-images" class="expandable-button light-blue">Exámenes y Enfermedades en el
-                Embarazo</button>
+            <button id="expand-images" class="expandable-button light-blue">Enfermedades en el Embarazo</button>
             <div id="image-container" class="content">
-                <img src="imagenes/ex1.jpg" alt="Imagen 1" class="responsive-image">
-                <img src="imagenes/ex2.jpg" alt="Imagen 2" class="responsive-image">
-                <img src="imagenes/ex3.jpg" alt="Imagen 3" class="responsive-image">
-                <img src="imagenes/ex4.jpg" alt="Imagen 4" class="responsive-image">
+                <h2>Enfermedades en el Embarazo</h2>
+                <button class="expandable-button blue">a. Anemia en el embarazo </button>
+                <div class="content">
+                    <h3>a. Anemia en el embarazo</h3>
+                    <ul>
+                        <li>Signos y síntomas: Fatiga, debilidad, palidez, mareos, cefalea, disnea, taquicardia, pica.
+                        </li>
+                        <li>Signos de alarma: Disnea severa incluso en reposo, taquicardia persistente.</li>
+                        <li>Tratamiento: Suplemento de hierro y ácido fólico.</li>
+                    </ul>
+                </div>
+                <button class="expandable-button blue">b. Diabetes gestacional</button>
+                <div class="content">
+                    <h3>b. Diabetes gestacional</h3>
+                    <ul>
+                        <li>Signos y síntomas: Polidipsia, poliuria, polifagia, aumento exesivo de peso, visión borrosa,
+                            infecciones recurrentes.</li>
+                        <li>Signos de alarma: Hiperglucemia persistente, cetonuria, episodios de hipoglucemia severa.
+                        </li>
+                        <li>Tratamiento: Dieta controlada, insulina si es necesarea.</li>
+                    </ul>
+                </div>
+                <button class="expandable-button blue">c. Hipertensión gestacional</button>
+                <div class="content">
+                    <h3>c. Hipertensión gestacional (incluyendo preeclampsia)</h3>
+                    <ul>
+                        <li>Signos y síntomas: Hipertensión arterial (>= 140/90mmHg), edema (cara, manos y pies),
+                            cefalea,
+                            escotomas, visión borrosa, dolor epigastrio o hipocondrio derecho, nausea o vómito</li>
+                        <li>Signos de alarma: Presión arterial >= 160/110mmHg, convulsiones(eclampsia), oliguria,
+                            hemorragia
+                            o
+                            desprendimiento placentario, alteraciones del bienestar fetal </li>
+                        <li>Tratamiento: Control con antihipertensivos (metildopa).</li>
+                    </ul>
+                </div>
+                <button class="expandable-button blue">d. Infección urinaria</button>
+                <div class="content">
+                    <h3>d. Infección urinaria (incluyendo bacteriuria, cistitis o pielonefritis)</h3>
+                    <ul>
+                        <li>Signos y síntomas: Disuria, polaquiuria, orina turbia, con olor fuerte o hematuria, dolor
+                            suprapúbico o lumbar, fiebre en pielonefritis.</li>
+                        <li>Signos de alarma: Fiebre alta persistente (>38 °C), dolor lumbar intenso, asociado a náuseas
+                            o
+                            vómitos, sepsis o signos de shock, trabajo de parto prematuro (si se asocia a
+                            pielonefritis).
+                        </li>
+                        <li>Tratamiento: Antibióticos seguros (amoxicilina, nitrofurantoína).</li>
+                    </ul>
+                </div>
             </div>
-
-            <h2>Score MAMÁ</h2>
-            <p>El Score MAMÁ evalúa el riesgo obstétrico en mujeres embarazadas y puérperas. Interpretación:</p>
-            <ul>
-                <li>0-2: Riesgo bajo</li>
-                <li>3-4: Riesgo moderado</li>
-                <li>5-8: Riesgo alto</li>
-            </ul>
-            <div class="image-container">
-                <img src="imagenes/mama.jpg" alt="Score MAMÁ" class="responsive-image">
-            </div>
-            <h2>Enfermedades en el Embarazo</h2>
-            <h3>a. Anemia en el embarazo</h3>
-            <ul>
-                <li>Signos y síntomas: Fatiga, debilidad, palidez, mareos, cefalea, disnea, taquicardia, pica.</li>
-                <li>Signos de alarma: Disnea severa incluso en reposo, taquicardia persistente.</li>
-                <li>Tratamiento: Suplemento de hierro y ácido fólico.</li>
-            </ul>
-            <h3>b. Diabetes gestacional</h3>
-            <ul>
-                <li>Signos y síntomas: Polidipsia, poliuria, polifagia, aumento exesivo de peso, visión borrosa,
-                    infecciones recurrentes.</li>
-                <li>Signos de alarma: Hiperglucemia persistente, cetonuria, episodios de hipoglucemia severa.</li>
-                <li>Tratamiento: Dieta controlada, insulina si es necesarea.</li>
-            </ul>
-            <h3>c. Hipertensión gestacional (incluyendo preeclampsia)</h3>
-            <ul>
-                <li>Signos y síntomas: Hipertensión arterial (>= 140/90mmHg), edema (cara, manos y pies), cefalea,
-                    escotomas, visión borrosa, dolor epigastrio o hipocondrio derecho, nausea o vómito</li>
-                <li>Signos de alarma: Presión arterial >= 160/110mmHg, convulsiones(eclampsia), oliguria, hemorragia o
-                    desprendimiento placentario, alteraciones del bienestar fetal </li>
-                <li>Tratamiento: Control con antihipertensivos (metildopa).</li>
-            </ul>
-            <h3>d. Infección urinaria (incluyendo bacteriuria, cistitis o pielonefritis)</h3>
-            <ul>
-                <li>Signos y síntomas: Disuria, polaquiuria, orina turbia, con olor fuerte o hematuria, dolor
-                    suprapúbico o lumbar, fiebre en pielonefritis.</li>
-                <li>Signos de alarma: Fiebre alta persistente (>38 °C), dolor lumbar intenso, asociado a náuseas o
-                    vómitos, sepsis o signos de shock, trabajo de parto prematuro (si se asocia a pielonefritis).</li>
-                <li>Tratamiento: Antibióticos seguros (amoxicilina, nitrofurantoína).</li>
-            </ul>
         </div>
     </div>
     </div>
@@ -1099,6 +1481,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     <script>
+        //
+
+
         // Evento para el botón "Generar PDF"
         document.getElementById('generate-pdf').addEventListener('click', function () {
             const { jsPDF } = window.jspdf;
@@ -1138,9 +1523,6 @@
             // Motivo de Consulta
             y = addText(doc, "Motivo de Consulta:", margin, y);
             y = addText(doc, `Motivo: ${document.getElementById('motivo_consulta').value}`, margin, y);
-            y = addText(doc, `Síntomas desde: ${document.getElementById('sintomas_inicio').value}`, margin, y);
-            y = addText(doc, `Síntomas relacionados con embarazo: ${document.getElementById('sintomas_embarazo').value}`, margin, y);
-            y = addText(doc, `¿Qué observación relevante hicimos?: ${document.getElementById('observacion2').value}`, margin, y);
 
             // Anamnesis
             y = addText(doc, "Anamnesis:", margin, y);
@@ -1158,30 +1540,41 @@
 
 
             // Enfermedad Actual
-            y = addText(doc, "Enfermedad Actual:", margin, y);
-            y = addText(doc, `Inicio de síntomas: ${document.getElementById('inicio_sintomas').value}`, margin, y);
-            y = addText(doc, `Evolución: ${document.getElementById('evolucion').value}`, margin, y);
-            y = addText(doc, `Medicamentos o tratamiento: ${document.getElementById('medicamentos_tratamiento').value}`, margin, y);
-            y = addText(doc, `Relación con embarazo: ${document.getElementById('relacion_embarazo').value}`, margin, y);
-            y = addText(doc, `¿Qué observación relevante hicimos?: ${document.getElementById('observacion4').value}`, margin, y);
+            // dolor 
+            y = addText(doc, "DOLOR:", margin, y);
+            y = addText(doc, `¿Cuándo empezó el dolor?: ${document.getElementById('inicio_dolor').value}`, margin, y);
+            y = addText(doc, `¿Nunca antes tuvo este dolor?: ${document.getElementById('dolor_anterior').value}`, margin, y);
+            y = addText(doc, `¿Es muy intenso el dolor?: ${document.getElementById('intensidad_dolor').value}`, margin, y);
+            y = addText(doc, `¿Cuál cree que fue la causa para que le duela?: ${document.getElementById('causa_dolor').value}`, margin, y);
+            y = addText(doc, `¿Dónde le nace el dolor?: ${document.getElementById('nace_dolor').value}`, margin, y);
+            y = addText(doc, `¿Hacia dónde se le va el dolor?: ${document.getElementById('irradia_dolor').value}`, margin, y);
+            y = addText(doc, `¿Cómo es el dolor?: ${document.getElementById('caracter_dolor').value}`, margin, y);
+            y = addText(doc, `¿Qué otras molestias presenta?: ${document.getElementById('otras_molestias').value}`, margin, y);
+            y = addText(doc, `¿A qué hora aparece el dolor?: ${document.getElementById('hora_dolor').value}`, margin, y);
+            y = addText(doc, `¿El dolor le ha venido días seguidos?: ${document.getElementById('dias_seguidos').value}`, margin, y);
+            y = addText(doc, `¿Ha notado si algún alimento alivia o aumenta el dolor?: ${document.getElementById('alimentos_dolor').value}`, margin, y);
+            y = addText(doc, `¿Qué le pasa al dolor cuando vomita?: ${document.getElementById('vomito_dolor').value}`, margin, y);
+            y = addText(doc, `¿Qué le pasa al dolor cuando orina?: ${document.getElementById('orina_dolor').value}`, margin, y);
+            y = addText(doc, `¿Qué le pasa al dolor cuando hace la deposición?: ${document.getElementById('deposicion_dolor').value}`, margin, y);
+            y = addText(doc, `¿Hay alguna posición que le aumente o alivie el dolor?: ${document.getElementById('posicion_dolor').value}`, margin, y);
+            y = addText(doc, `¿Qué medicamentos ha tomado para aliviar este dolor?: ${document.getElementById('medicamentos_dolor').value}`, margin, y);
+            y = addText(doc, `¿En las siguientes horas ha cambiado el dolor?: ${document.getElementById('cambio_horas_dolor').value}`, margin, y);
+            y = addText(doc, `Actualmente, ¿cómo se encuentra el dolor?: ${document.getElementById('actual_dolor').value}`, margin, y);
+
+            //no dolor 
+            // Secci&oacute;n NO DOLOR
+            y = addText(doc, "NO DOLOR:", margin, y);
+            y = addText(doc, `Aparición: ${document.getElementById('aparicion').value}`, margin, y);
+            y = addText(doc, `Localización: ${document.getElementById('localizacion').value}`, margin, y);
+            y = addText(doc, `Irradiación: ${document.getElementById('irradiacion').value}`, margin, y);
+            y = addText(doc, `Causa aparente: ${document.getElementById('causa_aparente').value}`, margin, y);
+            y = addText(doc, `Intensidad: ${document.getElementById('intensidad').value}`, margin, y);
+            y = addText(doc, `Agravantes: ${document.getElementById('agravantes').value}`, margin, y);
+            y = addText(doc, `Frecuencia: ${document.getElementById('frecuencia').value}`, margin, y);
+            y = addText(doc, `Duración: ${document.getElementById('duracion').value}`, margin, y);
+            y = addText(doc, `Síntomas acompañantes: ${document.getElementById('sintomas_acompanantes').value}`, margin, y);
 
 
-            // Revisión de Aparatos y Sistemas
-            y = addText(doc, "Revisión de Aparatos y Sistemas:", margin, y);
-            y = addText(doc, `Respiratorio: ${document.getElementById('respiratorio').value}`, margin, y);
-            y = addText(doc, `Circulatorio: ${document.getElementById('circulatorio').value}`, margin, y);
-            y = addText(doc, `Digestivo: ${document.getElementById('digestivo').value}`, margin, y);
-            y = addText(doc, `Génito-urinario: ${document.getElementById('genito_urinario').value}`, margin, y);
-            y = addText(doc, `Nervioso: ${document.getElementById('nervioso').value}`, margin, y);
-            y = addText(doc, `Endocrino: ${document.getElementById('endocrino').value}`, margin, y);
-            y = addText(doc, `Mamas: ${document.getElementById('mamas').value}`, margin, y);
-            y = addText(doc, `Locomotor: ${document.getElementById('locomotor').value}`, margin, y);
-            y = addText(doc, `Ocular: ${document.getElementById('ocular').value}`, margin, y);
-            y = addText(doc, `Faringe: ${document.getElementById('faringe').value}`, margin, y);
-            y = addText(doc, `Laringe: ${document.getElementById('laringe').value}`, margin, y);
-            y = addText(doc, `Fosas Nasales: ${document.getElementById('fosas_nasales').value}`, margin, y);
-            y = addText(doc, `Auditivo: ${document.getElementById('auditivo').value}`, margin, y);
-            y = addText(doc, `¿Qué observación relevante hicimos?: ${document.getElementById('observacion5').value}`, margin, y);
 
 
             // Antecedentes Personales
@@ -1272,9 +1665,6 @@
             //normal
 
 
-
-
-
             // Examen Físico
             y = addText(doc, "Examen Físico:", margin, y);
             y = addText(doc, `Tensión arterial: ${document.getElementById('tension_arterial').value}`, margin, y);
@@ -1285,6 +1675,22 @@
             y = addText(doc, `IMC: ${document.getElementById('imc').value}`, margin, y);
             y = addText(doc, `¿Qué observación relevante hicimos?: ${document.getElementById('observacion12').value}`, margin, y);
 
+            // Revisión de Aparatos y Sistemas
+            y = addText(doc, "Revisión de Aparatos y Sistemas:", margin, y);
+            y = addText(doc, `Respiratorio: ${document.getElementById('respiratorio').value}`, margin, y);
+            y = addText(doc, `Circulatorio: ${document.getElementById('circulatorio').value}`, margin, y);
+            y = addText(doc, `Digestivo: ${document.getElementById('digestivo').value}`, margin, y);
+            y = addText(doc, `Génito-urinario: ${document.getElementById('genito_urinario').value}`, margin, y);
+            y = addText(doc, `Nervioso: ${document.getElementById('nervioso').value}`, margin, y);
+            y = addText(doc, `Endocrino: ${document.getElementById('endocrino').value}`, margin, y);
+            y = addText(doc, `Mamas: ${document.getElementById('mamas').value}`, margin, y);
+            y = addText(doc, `Locomotor: ${document.getElementById('locomotor').value}`, margin, y);
+            y = addText(doc, `Ocular: ${document.getElementById('ocular').value}`, margin, y);
+            y = addText(doc, `Faringe: ${document.getElementById('faringe').value}`, margin, y);
+            y = addText(doc, `Laringe: ${document.getElementById('laringe').value}`, margin, y);
+            y = addText(doc, `Fosas Nasales: ${document.getElementById('fosas_nasales').value}`, margin, y);
+            y = addText(doc, `Auditivo: ${document.getElementById('auditivo').value}`, margin, y);
+            y = addText(doc, `¿Qué observación relevante hicimos?: ${document.getElementById('observacion5').value}`, margin, y);
 
             // Examen Físico General
             y = addText(doc, "Examen Físico General:", margin, y);
@@ -1316,10 +1722,71 @@
             y = addText(doc, `Maniobra de Leopold 2: ${document.getElementById('maniobra_2').value}`, margin, y);
             y = addText(doc, `Maniobra de Leopold 3: ${document.getElementById('maniobra_3').value}`, margin, y);
             y = addText(doc, `Maniobra de Leopold 4: ${document.getElementById('maniobra_4').value}`, margin, y);
-            y = addText(doc, `¿Qué observación relevante hicimos?: ${document.getElementById('observacion16').value}`, margin, y);
+            y = addText(doc, `¿Qué observación relevante hicimos en Maniobra de Leopold?: ${document.getElementById('observacion16').value}`, margin, y);
+
+            //Score mama 
+            y = addText(doc, "Score mamá", margin, y);
+            y = addText(doc, `¿Qué observación relevante hicimos?: ${document.getElementById('observacion33').value}`, margin, y);
+
+            //  
 
 
 
+
+            //Exámenes Complementarios
+            y = addText(doc, "Exámenes Complementarios:", margin, y);
+            //Exámenes Complementarios 1 t
+            y = addText(doc, "1er Trimestre", margin, y);
+            y = addText(doc, `Hemoglobina: ${document.getElementById('hemoglobina_1t').value}`, margin, y);
+            y = addText(doc, `Hematocrito: ${document.getElementById('hematocrito_1t').value}`, margin, y);
+            y = addText(doc, `Plaquetas: ${document.getElementById('plaquetas_1t').value}`, margin, y);
+            y = addText(doc, `Leucocitos: ${document.getElementById('leucocitos_1t').value}`, margin, y);
+            y = addText(doc, `Eritrocitos: ${document.getElementById('eritrocitos_1t').value}`, margin, y);
+            y = addText(doc, `VIH: ${document.getElementById('vih_1t').value}`, margin, y);
+            y = addText(doc, `Grupo Sanguíneo - Factor Rh: ${document.getElementById('grupo_sanguineo_1t').value}`, margin, y);
+            y = addText(doc, `Glucosa en Ayunas: ${document.getElementById('glucosa_1t').value}`, margin, y);
+            y = addText(doc, `TGO, TGP: ${document.getElementById('tgo_tgp_1t').value}`, margin, y);
+            y = addText(doc, `TORCH: ${document.getElementById('torch_1t').value}`, margin, y);
+            y = addText(doc, `Urocultivo: ${document.getElementById('urocultivo_1t').value}`, margin, y);
+            y = addText(doc, `Creatinina: ${document.getElementById('creatinina_1t').value}`, margin, y);
+            y = addText(doc, `Ácido Úrico: ${document.getElementById('acido_urico_1t').value}`, margin, y);
+            y = addText(doc, `Hepatitis B y C: ${document.getElementById('hepatitis_bc_1t').value}`, margin, y);
+            y = addText(doc, `VDRL: ${document.getElementById('vdrl_1t').value}`, margin, y);
+            y = addText(doc, `Urea: ${document.getElementById('urea_1t').value}`, margin, y);
+
+            // Segundo Trimestre
+            y = addText(doc, "2do Trimestre", margin, y);
+            y = addText(doc, `Hemoglobina: ${document.getElementById('hemoglobina_2t').value}`, margin, y);
+            y = addText(doc, `Hematocrito: ${document.getElementById('hematocrito_2t').value}`, margin, y);
+            y = addText(doc, `Plaquetas: ${document.getElementById('plaquetas_2t').value}`, margin, y);
+            y = addText(doc, `Leucocitos: ${document.getElementById('leucocitos_2t').value}`, margin, y);
+            y = addText(doc, `Eritrocitos: ${document.getElementById('eritrocitos_2t').value}`, margin, y);
+            y = addText(doc, `Glucosa en Ayunas: ${document.getElementById('glucosa_2t').value}`, margin, y);
+            y = addText(doc, `PTGO: ${document.getElementById('ptgo_2t').value}`, margin, y);
+            y = addText(doc, `VIH: ${document.getElementById('vih_2t').value}`, margin, y);
+            y = addText(doc, `VDRL: ${document.getElementById('vdrl_2t').value}`, margin, y);
+            y = addText(doc, `HBsAg: ${document.getElementById('hbsag_2t').value}`, margin, y);
+            y = addText(doc, `IgG, IgM: ${document.getElementById('igg_igm_2t').value}`, margin, y);
+            y = addText(doc, `Urocultivo: ${document.getElementById('urocultivo_2t').value}`, margin, y);
+            y = addText(doc, `Eco Anatómico: ${document.getElementById('eco_anatomico_2t').value}`, margin, y);
+
+            // Tercer Trimestre
+            y = addText(doc, "3er Trimestre:", margin, y);
+            y = addText(doc, `Hemoglobina: ${document.getElementById('hemoglobina_3t').value}`, margin, y);
+            y = addText(doc, `Hematocrito: ${document.getElementById('hematocrito_3t').value}`, margin, y);
+            y = addText(doc, `Plaquetas: ${document.getElementById('plaquetas_3t').value}`, margin, y);
+            y = addText(doc, `Leucocitos: ${document.getElementById('leucocitos_3t').value}`, margin, y);
+            y = addText(doc, `Eritrocitos: ${document.getElementById('eritrocitos_3t').value}`, margin, y);
+            y = addText(doc, `EMO: ${document.getElementById('emo_3t').value}`, margin, y);
+            y = addText(doc, `T. Protrombina: ${document.getElementById('protrombina_3t').value}`, margin, y);
+            y = addText(doc, `Perfil Biofísico Fetal: ${document.getElementById('perfil_biofisico_3t').value}`, margin, y);
+            y = addText(doc, `Streptococo B: ${document.getElementById('streptococo_b_3t').value}`, margin, y);
+
+
+            //adicionales
+            y = addText(doc, "Adicionales", margin, y);
+            y = addText(doc, `Doppler Obstétrico: ${document.getElementById('doppler_obstetrico').value}`, margin, y);
+            y = addText(doc, `Amniocentesis: ${document.getElementById('amniocentesis').value}`, margin, y);
             // Descargar PDF
 
             doc.save("Formulario_Medico.pdf");
