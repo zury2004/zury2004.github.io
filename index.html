@@ -1107,47 +1107,475 @@
                 <!-- Clave Azul -->
                 <button class="expandable-button blue">a.- Clave Azul</button>
                 <div class="content">
-                    <p><strong>Prevención de Convulsiones:</strong> Administrar Sulfato de Mg 4g I.V cada 20 minutos.
-                    </p>
-                    <p><strong>Preeclampsia:</strong> Impregnación 4g I.V + 80 ml de solución isotónica en 20 minutos.
-                    </p>
-                    <p><strong>Mantenimiento:</strong> 10g I.V + 450 ml de solución isotónica (1g/hora).</p>
-                    <p><strong>Eclampsia:</strong> Impregnación 6g I.V + 70ml de solución isotónica en 20 minutos.</p>
-                    <p>Mantenimiento: 20g I.V + 400 ml solución isotónica (2g/hora).</p>
-                    <p><strong>Toxicidad:</strong> Aplicar gluconato de calcio al 10%, 1g I.V en 10 minutos.</p>
+                    <button class="expandable-button">Preeclampsia</button>
+                    <div class="content">
+                        <button class="expandable-button">Diagnóstico</button>
+                        <div class="content">
+                            <h2>Diagnóstico</h2>
+                            <h3>Mediciones y Pruebas</h3>
+                            <ul>
+                                <li>Medición de presión arterial: En reposo, en ambos brazos.</li>
+                                <li>Proteinuria en orina de 24 h o índice proteína/creatinina.</li>
+                                <li>Hemograma completo: Plaquetas y hematocrito.</li>
+                                <li>Pruebas de función renal: Urea, creatinina.</li>
+                                <li>Pruebas hepáticas: AST, ALT.</li>
+                                <li>Doppler de arterias uterinas: Para evaluar compromiso placentario.</li>
+                                <li>Perfil biofísico fetal y Doppler umbilical: Para evaluar bienestar fetal.</li>
+                            </ul>
+                            <h3>Signos de Severidad</h3>
+                            <ul>
+                                <li>Trombocitopenia (&lt;100,000 plaquetas).</li>
+                                <li>Aumento de transaminasas (&gt;2 veces el valor normal).</li>
+                                <li>Creatinina elevada (&gt;1.1 mg/dL).</li>
+                                <li>Edema pulmonar.</li>
+                                <li>Alteraciones neurológicas o visuales (cefalea, visión borrosa, escotomas).</li>
+                            </ul>
+                            <h3>Factores de Riesgo</h3>
+                            <ul>
+                                <li>Primigestas, embarazo múltiple, obesidad, edad extrema (&lt;18 o &gt;35 años).</li>
+                                <li>Antecedentes familiares de preeclampsia.</li>
+                                <li>Enfermedad renal crónica, diabetes, hipertensión crónica.</li>
+                            </ul>
+                            <h3>Escalas Utilizadas</h3>
+                            <h4>Clasificación Clínica de Preeclampsia</h4>
+                            <ul>
+                                <li><strong>Preeclampsia sin signos de severidad:</strong> Hipertensión ≥140/90 mmHg, proteinuria leve.</li>
+                                <li><strong>Preeclampsia con signos de severidad:</strong> PA ≥160/110 mmHg, daño a órganos (cefalea, visión borrosa, dolor epigástrico, disnea), plaquetas &lt;100,000, creatinina &gt;1.1 mg/dL, enzimas hepáticas elevadas.</li>
+                            </ul>
+                            <h4>Escala de GESTO para Evaluación del Riesgo de Preeclampsia Severa</h4>
+                            <ul>
+                                <li>Síntomas neurológicos: 3 puntos.</li>
+                                <li>Dolor epigástrico o en hipocondrio derecho: 2 puntos.</li>
+                                <li>PA ≥160/110 mmHg: 3 puntos.</li>
+                                <li>Proteinuria significativa: 1 punto.</li>
+                                <li>Plaquetas &lt;100,000: 2 puntos.</li>
+                                <li>Transaminasas elevadas: 2 puntos.</li>
+                                <li><strong>≥6 puntos:</strong> Alto riesgo, requiere hospitalización.</li>
+                            </ul>
+                            <h3>Exámenes de Laboratorio Esenciales</h3>
+                            <ul>
+                                <li>Hemograma (plaquetas).</li>
+                                <li>Función renal (creatinina, relación proteína/creatinina).</li>
+                                <li>Función hepática (transaminasas).</li>
+                                <li>Pruebas de coagulación (descartar CID).</li>
+                                <li>Ecografía Doppler (flujo placentario alterado en casos graves).</li>
+                            </ul>
+                            <ul>
+                                <li>✅ <strong>Factores de riesgo:</strong></li>
+                                <ul>
+                                  <li>Antecedentes personales o familiares de preeclampsia</li>
+                                  <li>Hipertensión crónica, obesidad, diabetes, enfermedad renal o autoinmune</li>
+                                  <li>Gestación múltiple, primiparidad, edad materna &lt;20 o &gt;40 años</li>
+                                  <li>Historia de preeclampsia en embarazo previo</li>
+                                </ul>
+                              </ul>
+
+                              
+                        </div>
+                        <button class="expandable-button">Tratamiento</button>
+                        <div class="content">
+                            <ul>
+                                <li><strong>a) Control de la Presión Arterial</strong></li>
+                                <ul>
+                                  <li> <strong>Hipertensión leve (140-159/90-109 mmHg):</strong></li>
+                                  <ul>
+                                    <li>Metildopa 250-500 mg VO cada 8 h (primera línea)</li>
+                                    <li>Labetalol 100-400 mg VO cada 12 h</li>
+                                    <li>Nifedipino 30-60 mg VO cada 24 h</li>
+                                  </ul>
+                                  <li> <strong>Hipertensión severa (≥160/110 mmHg) – Urgencia hipertensiva:</strong></li>
+                                  <ul>
+                                    <li>Labetalol IV: 20 mg en bolo, repetir cada 10 min hasta máx. 300 mg</li>
+                                    <li>Hidralazina IV: 5-10 mg cada 20 min</li>
+                                    <li>Nifedipino VO: 10 mg cada 30 min si no hay respuesta IV</li>
+                                  </ul>
+                                  <li><strong>Meta de PA:</strong> Mantener entre 140-150/90-100 mmHg (evitar hipotensión).</li>
+                                </ul>
+                              </ul>
+                              
+                        </div>
+                    </div>
+                    <button class="expandable-button">Eclampsia</button>
+                    <div class="content">
+                        <p><strong>La eclampsia</strong> es una complicación severa de la preeclampsia caracterizada por convulsiones tónico-clónicas generalizadas en una embarazada sin antecedentes de epilepsia. Puede ocurrir durante el embarazo, el parto o el posparto temprano.</p>
+
+                        <button class="expandable-button">Diagnóstico</button>
+                        <div class="content">
+                           
+                                El diagnóstico de eclampsia es clínico, basado en:<br>
+                                <ul>
+                                  <li>Presencia de convulsiones tónico-clónicas</li>
+                                  <li>Antecedente de preeclampsia o hipertensión gestacional</li>
+                                  <li>Exclusión de otras causas (epilepsia, neuroinfección, ACV)</li>
+                                </ul>
+                                Estudios complementarios incluyen:<br>
+                                <ul>
+                                  <li>Laboratorio: Hemograma, función renal y hepática, pruebas de coagulación</li>
+                                  <li>Neuroimagen (TAC/RM): Si se sospecha hemorragia cerebral o síndrome de encefalopatía posterior reversible (PRES)</li>
+                                </ul>
+                                Identificación Temprana:<br>
+                                <ul>
+                                  <li>Cefalea intensa</li>
+                                  <li>Trastornos visuales (visión borrosa, fotopsias)</li>
+                                  <li>Dolor en epigastrio o cuadrante superior derecho</li>
+                                  <li>Hipertensión arterial severa (≥160/110 mmHg)</li>
+                                  <li>Edema y oliguria</li>
+                                  <li>Hiperreflexia</li>
+                                </ul>
+                                Escalas Utilizadas:<br>
+                                <strong>Criterios de preeclampsia severa</strong><br>
+                                <ul>
+                                  <li>PA ≥ 160/110 mmHg en dos ocasiones con 4 h de diferencia</li>
+                                  <li>Trombocitopenia (&lt;100,000/mm³)</li>
+                                  <li>Elevación de AST/ALT (≥2 veces el valor normal)</li>
+                                  <li>Creatinina >1.1 mg/dL o falla renal</li>
+                                  <li>Edema pulmonar</li>
+                                  <li>Síntomas neurológicos (cefalea persistente, escotomas)</li>
+                                </ul>
+                                <strong>Clasificación de Sibai para eclampsia:</strong><br>
+                                <ul>
+                                  <li>Precoz (&lt;28 semanas): Forma más grave, alta mortalidad</li>
+                                  <li>Clásica (28-37 semanas): Presentación más común</li>
+                                  <li>Tardía (&gt;48h posparto): Puede aparecer hasta 6 semanas después</li>
+                                </ul>
+                             
+                              
+                        </div>
+                        <button class="expandable-button">Tratamiento</button>
+                        <div class="content">
+                            <ul>
+                              
+                               
+                                    <strong>a) Control de las Convulsiones</strong><br>
+                                    Sulfato de Magnesio (MgSO₄): Fármaco de elección<br>
+                                    <ul>
+                                      <li>Dosis de carga: 4-6 g IV en 20 min</li>
+                                      <li>Mantenimiento: 1-2 g/h IV por 24 h postconvulsión</li>
+                                      <li>Monitoreo: Reflejos patelares, FR (&gt;12/min), diuresis (&gt;30 mL/h)</li>
+                                    </ul>
+                                  
+                                    <strong>b) Control de la Presión Arterial</strong><br>
+                                    Si la PA es ≥160/110 mmHg, se utilizan antihipertensivos para prevenir ACV:<br>
+                                    <ul>
+                                      <li>Labetalol IV: 20 mg inicial, repetir cada 10 min hasta 220 mg</li>
+                                      <li>Hidralazina IV: 5-10 mg cada 20 min</li>
+                                      <li>Nifedipino VO: 10 mg cada 30 min (máx. 30 mg)</li>
+                                    </ul>
+                                  
+                                    <strong>c) Interrupción del Embarazo</strong><br>
+                                    <ul>
+                                      <li>Indicación inmediata tras estabilización materna</li>
+                                      <li>Parto vaginal preferido, pero cesárea si hay indicación obstétrica</li>
+                                    </ul>
+                                  
+                                    <strong>Manejo Intensivo</strong><br>
+                                    <ul>
+                                      <li>Monitorización en UCI</li>
+                                      <li>Soporte ventilatorio en casos graves</li>
+                                      <li>Seguimiento posparto por riesgo de recurrencia</li>
+                                    </ul>
+                                  
+          
+                                  
+                                  
+                              </ul>
+                              
+                        </div>
+                    </div>
+                    <button class="expandable-button">Síndrome de HELLP</button>
+                    <div class="content">
+                      
+                            <li>Es una complicación grave del embarazo, considerada una variante de la preeclampsia severa.</li>
+              
+                        <button class="expandable-button">Diagnóstico</button>
+                        <div class="content">
+                            <p><strong></strong>El síndrome de HELLP suele aparecer en el tercer trimestre, pero también puede manifestarse en el posparto.</p>
+                            <ul>
+                              <li>Dolor en el cuadrante superior derecho o epigastrio</li>
+                              <li>Náuseas y vómitos</li>
+                              <li>Cefalea</li>
+                              <li>Hipertensión arterial</li>
+                              <li>Edema</li>
+                              <li>Proteinuria (en algunos casos)</li>
+                              <li>Compromiso del estado general</li>
+                            </ul>
+                            <div class="image-container">
+                                <img src="imagenes/help.png"  class="responsive-image">
+                            </div>
+                            
+                        </div>
+                        <button class="expandable-button">Tratamiento</button>
+                        <div class="content">
+                            <ol>
+                                <li><strong>Antihipertensivos (si la presión arterial es ≥160/105 mmHg)</strong></li>
+                                <ul>
+                                  <li><strong>Labetalol:</strong> 20-40 mg IV en bolo, seguido de infusión continua si es necesario.</li>
+                                  <li><strong>Hidralazina:</strong> 5-10 mg IV cada 20-30 min.</li>
+                                  <li><strong>Nifedipina:</strong> 10 mg VO cada 20-30 min hasta un máximo de 30 mg, seguido de dosis de mantenimiento.</li>
+                                </ul>
+                                <li><strong>Sulfato de Magnesio (para prevención de eclampsia)</strong></li>
+                                <ul>
+                                  <li>Dosis de carga de 4-6 g IV en 15-20 min, seguido de una infusión continua de 1-2 g/h.</li>
+                                </ul>
+                                <li><strong>Corticosteroides</strong></li>
+                                <ul>
+                                  <li><strong>Dexametasona:</strong> 10 mg IV cada 12 horas por 2 dosis, seguido de 5 mg IV cada 12 horas por 2 dosis.</li>
+                                  <li><strong>Betametasona:</strong> 12 mg intramuscular cada 24 horas por dos dosis.</li>
+                                </ul>
+                                <li><strong>Transfusión de sangre</strong></li>
+                                <ul>
+                                  <li>Concentrado de plaquetas si hay &lt;50,000 plaquetas/mm³ y se requiere cesárea.</li>
+                                </ul>
+                                <li><strong>El tratamiento definitivo es el parto</strong>, considerando la edad gestacional y la estabilidad materno-fetal.</li>
+                              </ol>
+                              
+                        </div>
+                    </div>
                 </div>
+                
 
                 <!-- Clave Roja -->
                 <button class="expandable-button red">b.- Clave Roja</button>
                 <div class="content">
-                    <p><strong>1er Trimestre:</strong> Abortos, ectópico y mola.</p>
-                    <p><strong>2do y 3er Trimestre:</strong> Placenta previa, desprendimiento de placenta, ruptura
-                        uterina.</p>
-                    <p><strong>Hemorragia Posparto:</strong> Tono, trauma, tejido y trombina.</p>
-                    <p><strong>Medicamentos Uterotónicos:</strong></p>
-                    <ul>
-                        <li>Oxitocina 10Ul/mL I.M.</li>
-                        <li>Misoprostol 800 ug sublingual o vía rectal.</li>
-                        <li>Metilergonovina 0.2mg I.M (máximo 5 dosis).</li>
-                    </ul>
+                    <button class="expandable-button red">Diagnóstico</button>
+                    <div class="content">
+                        <h3>Acciones Inmediatas</h3>
+                        <ul>
+                            <li>Activar código de clave roja obstétrica y llamar al equipo de emergencia.</li>
+                            <li>Manejo inmediato según la causa:</li>
+                            <ul>
+                                <li><strong>Hemorragia:</strong> Reanimación con líquidos, oxitocina, posible cirugía.
+                                </li>
+                                <li><strong>Hipertensión:</strong> Sulfato de magnesio, antihipertensivos, control de
+                                    convulsiones.</li>
+                                <li><strong>Sufrimiento fetal:</strong> Oxígeno materno, cambio de posición, cesárea
+                                    urgente si es necesario.</li>
+                            </ul>
+                            <li>Monitoreo continuo de signos vitales maternos y bienestar fetal.</li>
+                            <li>Traslado urgente a quirófano o UCI según el caso.</li>
+                        </ul>
+
+                        <h3>Pasos a Seguir</h3>
+                        <ol>
+                            <li>
+                                <strong>Evaluar y analizar factores de riesgo:</strong>
+                                <ul>
+                                    <li>Aplique el Score MAMA c/4 horas y registre.</li>
+                                    <li>Reevalúe signos vitales.</li>
+                                    <li>Realice pruebas de bienestar fetal.</li>
+                                    <li>Considere exámenes complementarios y/o evaluación por especialista.</li>
+                                    <li>Si se revierte el puntaje, envíe a casa y realice seguimiento.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Tratar y referir según el caso:</strong>
+                                <ul>
+                                    <li>Aplique el Score MAMA c/hora y registre.</li>
+                                    <li>Evalúe signos vitales y signos de alarma.</li>
+                                    <li>Realice un diagnóstico primario.</li>
+                                    <li>Comunique al médico tratante (evaluación en 30 minutos).</li>
+                                    <li>Si no hay mejoría en una hora, referir a mayor complejidad.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Aliste, active y aplique CLAVE ROJA según el caso obstétrico.</strong></li>
+                            <li><strong>Transfiera con acompañamiento de un profesional de salud.</strong></li>
+                        </ol>
+
+                        <h3>Situaciones que Activan la Clave Roja</h3>
+                        <ul>
+                            <li>Hemorragia obstétrica severa</li>
+                            <li>Shock hipovolémico</li>
+                            <li>Eclampsia o preeclampsia severa</li>
+                            <li>Sepsis materna</li>
+                            <li>Embolia de líquido amniótico</li>
+                            <li>Rotura uterina</li>
+                        </ul>
+
+                        <h3>Objetivos de la Clave Roja</h3>
+                        <ul>
+                            <li>Atención inmediata para estabilizar a la paciente.</li>
+                            <li>Detener la hemorragia.</li>
+                            <li>Restaurar el volumen sanguíneo (transfusiones, líquidos).</li>
+                            <li>Evitar complicaciones graves o muerte materno-fetal.</li>
+                            <li>Coordinar cirugías o tratamientos urgentes.</li>
+                        </ul>
+
+                        <h3>Protocolo de Atención</h3>
+                        <ul>
+                            <li>Activación del código por cualquier personal de salud.</li>
+                            <li>Equipo de emergencia obstétrica acude de inmediato.</li>
+                            <li>Monitoreo y estabilización de signos vitales.</li>
+                            <li>Reanimación y transfusión si es necesario.</li>
+                            <li>Intervención quirúrgica o médica según la causa.</li>
+                        </ul>
+
+                        <h3>Importancia de la Clave Roja</h3>
+                        <ul>
+                            <li>Reduce la mortalidad materna y fetal.</li>
+                            <li>Mejora la respuesta hospitalaria ante emergencias obstétricas.</li>
+                            <li>Facilita una atención rápida y efectiva.</li>
+                        </ul>
+                    </div>
+
+                    <button class="expandable-button red">Tratamiento</button>
+                    <div class="content">
+                        <h3>Manejo de Hemorragia Obstétrica</h3>
+                        <ul>
+                            <li>Masaje uterino.</li>
+                            <li>Administración de oxitocina y otros uterotónicos.</li>
+                            <li>Transfusión sanguínea rápida.</li>
+                            <li>Cirugía en casos extremos (histerectomía).</li>
+                        </ul>
+
+                        <h3>Medicamentos</h3>
+                        <ul>
+                            <li><strong>Oxitocina:</strong> 10 UI IM o 20-40 UI en 1 litro de solución IV a 250 ml/h.
+                            </li>
+                            <li><strong>Ácido Tranexámico:</strong> 1 g IV en bolo lento (10 min), repetir en 30 min si
+                                persiste el sangrado.</li>
+                            <li><strong>Misoprostol:</strong> 800 mcg vía rectal (si no hay respuesta a oxitocina).</li>
+                            <li><strong>Carbetocina (opcional):</strong> 100 mcg IV en bolo lento (si hay alto riesgo de
+                                HPP).</li>
+                            <li><strong>Transfusión de sangre</strong> si hay signos de shock hipovolémico.</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <!-- Clave Amarilla -->
                 <button class="expandable-button yellow">c.- Clave Amarilla</button>
                 <div class="content">
-                    <p><strong>Shock Séptico:</strong> Caso de shock séptico o sepsis severa durante el embarazo, parto
-                        o puerperio.</p>
-                    <p><strong>Medicamentos:</strong></p>
-                    <ul>
-                        <li>Ampicilina/sulbactam 1.5 a 3.0 g I.V cada 6 horas + Clindamicina 600 mg I.V cada 6 horas.
-                        </li>
-                        <li>Ceftriaxona 1 g I.V cada 12 horas + Metronidazol 500 mg I.V cada 8 horas.</li>
-                        <li>Piperacilina Tazobactam 4.5 g I.V cada 6 horas.</li>
-                        <li>Gentamicina 3-5 mg/kg.</li>
-                    </ul>
-                    <p><strong>Vasopresores:</strong> Añadir 0,03 U/min de vasopresina a norepinefrina (NE).</p>
-                    <p>No administrar corticosteroides en ausencia de choque.</p>
+                    <button class="expandable-button yellow">Diagnóstico</button>
+                    <div class="content">
+                        <h3>Diagnóstico de Sepsis</h3>
+                        <p>El diagnóstico de sepsis se basa en la identificación de una disfunción orgánica
+                            potencialmente mortal causada por una respuesta desregulada del huésped a una infección. Se
+                            manifiesta con cambios agudos en el puntaje SOFA ≥2 puntos consecutivos a la infección.</p>
+
+                        <h3>Identificación Temprana</h3>
+                        <p>La detección precoz se basa en la identificación de dos o más signos del Síndrome de
+                            Respuesta Inflamatoria Sistémica (SIRS):</p>
+                        <ul>
+                            <li>Temperatura corporal mayor a 38°C o menor a 36°C.</li>
+                            <li>Frecuencia cardíaca (FC) superior a 90 latidos por minuto.</li>
+                            <li>Frecuencia respiratoria (FR) mayor a 20 respiraciones por minuto o presión parcial de
+                                CO₂ menor a 32 mmHg.</li>
+                            <li>Recuento de glóbulos blancos superior a 12,000/µL o inferior a 4,000/µL, o con más del
+                                10% de formas inmaduras.</li>
+                        </ul>
+
+                        <h3>Escalas Utilizadas</h3>
+                        <div class="image-container">
+                            <img src="imagenes/sofa.png"  class="responsive-image">
+                        </div>
+                        <p>Para la evaluación y monitoreo de la paciente, se emplean escalas como el
+                            <strong>qSOFA</strong> y el <strong>SOFA completo</strong>, que ayudan a determinar la
+                            gravedad de la disfunción orgánica y guiar el manejo clínico.</p>
+                            <div class="image-container">
+                                <img src="imagenes/sofa2.png"  class="responsive-image">
+                            </div>
+                    </div>
+
+                    <button class="expandable-button yellow">Tratamiento</button>
+                    <div class="content">
+                        <h3>1. Reanimación con Líquidos (Primera Línea)</h3>
+                        <p>Solución cristaloide (Cloruro de sodio al 0.9% o Ringer Lactato): 30 ml/kg en los primeros
+                            30-60 minutos.</p>
+                        <p>Se administra en bolo rápido, evaluando respuesta hemodinámica.</p>
+
+                        <h3>2. Antibióticos de Amplio Espectro (Dentro de la Primera Hora)</h3>
+                        <p>El esquema depende de la gravedad y del probable foco infeccioso:</p>
+                        <ul>
+                            <li><strong>Primera línea (Sin choque séptico):</strong>
+                                <ul>
+                                    <li>Ceftriaxona 2 g IV cada 24 h + Metronidazol 500 mg IV cada 8 h</li>
+                                    <li>Alternativa: Cefotaxima 2 g IV cada 8 h + Metronidazol 500 mg IV cada 8 h</li>
+                                </ul>
+                            </li>
+                            <li><strong>Primera línea (Con choque séptico o sepsis grave):</strong>
+                                <ul>
+                                    <li>Meropenem 1 g IV cada 8 h + Vancomicina 15 mg/kg IV cada 12 h</li>
+                                    <li>Alternativa en alergia a β-lactámicos: Clindamicina 600-900 mg IV cada 8 h +
+                                        Gentamicina 5 mg/kg IV cada 24 h</li>
+                                    <li>Si hay sospecha de anaerobios: Agregar Metronidazol 500 mg IV cada 8 h</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <h3>3. Soporte Vasopresor (Si Persiste Hipotensión tras Líquidos)</h3>
+                        <ul>
+                            <li>Noradrenalina IV: 0.05-1 µg/kg/min, titulando hasta alcanzar PAM ≥65 mmHg.</li>
+                            <li>Alternativa: Dopamina 5-20 µg/kg/min IV si no se dispone de noradrenalina.</li>
+                        </ul>
+
+                        <h3>4. Corticoterapia (Solo si Hay Shock Séptico Refractario)</h3>
+                        <p>Hidrocortisona 200 mg IV cada 24 h en infusión continua o en bolos de 50 mg cada 6 h.</p>
+
+                        <h3>5. Control de la Fuente de Infección</h3>
+                        <p>Si hay un absceso, endometritis o infección intrauterina, puede requerirse drenaje
+                            quirúrgico, evacuación uterina o histerectomía de emergencia.</p>
+
+                        <h3>6. Soporte Adicional</h3>
+                        <ul>
+                            <li>Oxigenoterapia: Para mantener SatO₂ > 90%.</li>
+                            <li>Monitorización de diuresis: ≥ 0.5 ml/kg/h indica perfusión adecuada.</li>
+                            <li>Corrección de hiperglucemia: Mantener glucosa &lt;180 mg/dl con insulina IV si es
+                                necesario.</li>
+                            <li>Transfusión sanguínea: Si hemoglobina &lt;7 g/dl.</li>
+                        </ul>
+                    </div>
                 </div>
+
+
+                <!-- Identificación del shock -->
+                <button class="expandable-button "style="background-color: orange; color: white;">d.- Identificación del shock</button>
+                <div class="content">
+                    <p>El shock es una condición médica crítica que se caracteriza por la reducción del flujo sanguíneo
+                        efectivo en el cuerpo, lo que puede llevar a un fallo multiorgánico si no se trata rápidamente.
+                        Existen varios tipos de shock, cada uno con causas y características diferentes.</p>
+
+                    <button class="expandable-button"style="background-color: orange; color: white;">1. Shock hipovolémico</button>
+                    <div class="content">
+                        <p><strong>Causa:</strong> Pérdida de volumen sanguíneo o de líquidos corporales, como en el
+                            caso de hemorragias o deshidrataciones severas.</p>
+                        <p><strong>Síntomas:</strong> Taquicardia, hipotensión, piel fría y pálida, llenado capilar
+                            retardado.</p>
+                    </div>
+
+                    <button class="expandable-button"style="background-color: orange; color: white;">2. Shock cardiogénico</button>
+                    <div class="content">
+                        <p><strong>Causa:</strong> Fallo del corazón para bombear sangre adecuadamente, frecuentemente
+                            debido a un infarto de miocardio.</p>
+                        <p><strong>Síntomas:</strong> Hipotensión, congestión pulmonar, distensión venosa yugular, piel
+                            fría y sudorosa.</p>
+                    </div>
+
+                    <button class="expandable-button"style="background-color: orange; color: white;">3. Shock distributivo</button>
+                    <div class="content">
+                        <p><strong>Causa:</strong> Distribución anormal del flujo sanguíneo.</p>
+                        <ul>
+                            <li><strong>Shock séptico:</strong> Infección severa.</li>
+                            <li><strong>Shock anafiláctico:</strong> Reacción alérgica severa.</li>
+                            <li><strong>Shock neurogénico:</strong> Lesión en el sistema nervioso.</li>
+                        </ul>
+                        <p><strong>Síntomas:</strong> Hipotensión, piel caliente y enrojecida (especialmente en el shock
+                            séptico), dificultad respiratoria (en anafilaxia), bradicardia (en shock neurogénico).</p>
+                    </div>
+
+                    <button class="expandable-button"style="background-color: orange; color: white;">4. Shock obstructivo</button>
+                    <div class="content">
+                        <p><strong>Causa:</strong> Obstrucción del flujo sanguíneo, como en el caso de un taponamiento
+                            cardíaco o embolia pulmonar.</p>
+                        <p><strong>Síntomas:</strong> Hipotensión, distensión venosa yugular, taquicardia, signos de
+                            congestión.</p>
+                    </div>
+
+                    <p>El diagnóstico temprano es crucial e incluye un examen físico completo, historial médico y
+                        pruebas de laboratorio y de imagen según sea necesario.</p>
+                    <p>El manejo inicial del shock incluye la estabilización del paciente con medidas como
+                        administración de líquidos intravenosos, medicamentos vasopresores o inotrópicos, y tratamiento
+                        de la causa subyacente.</p>
+                </div>
+
             </div>
         </div>
         <!-- Sección informativa: escore mama2 -->
