@@ -329,60 +329,7 @@
             </div>
         </div>
         <!-- Sección 4: Anamnesis 3 -->
-        <div class="section">
-            <button id="expand-images" class="expandable-button light-blue">Anamnesis</button>
-            <div id="image-container" class="content">
-                <h2>Anamnesis</h2>
-                <div class="form-group">
-                    <label for="localizacion">Localización</label>
-                    <textarea id="localizacion" name="localizacion" placeholder="Describa la localización"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="irradiacion">Irradiación</label>
-                    <textarea id="irradiacion" name="irradiacion" placeholder="Describa la irradiación"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="intensidad">Intensidad</label>
-                    <textarea id="intensidad" name="intensidad" placeholder="Describa la intensidad"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="inicio">Inicio</label>
-                    <textarea id="inicio" name="inicio" placeholder="Describa el inicio"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="duracion">Duración</label>
-                    <textarea id="duracion" name="duracion" placeholder="Describa la duración"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="caracteristicas">Características</label>
-                    <textarea id="caracteristicas" name="caracteristicas"
-                        placeholder="Describa las características"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="factores_desencadenantes">Factores desencadenantes</label>
-                    <textarea id="factores_desencadenantes" name="factores_desencadenantes"
-                        placeholder="Describa los factores desencadenantes"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="factores_agravantes">Factores agravantes</label>
-                    <textarea id="factores_agravantes" name="factores_agravantes"
-                        placeholder="Describa los factores agravantes"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="factores_atenuantes">Factores atenuantes</label>
-                    <textarea id="factores_atenuantes" name="factores_atenuantes"
-                        placeholder="Describa los factores atenuantes"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="frecuencia">Frecuencia</label>
-                    <textarea id="frecuencia" name="frecuencia" placeholder="Describa la frecuencia"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="observacion3">¿Qué observación relevante hicimos?</label>
-                    <input type="text" id="observacion3" name="observacion3" placeholder="Escriba la observación">
-                </div>
-            </div>
-        </div>
+       
         <!-- Sección 5: Enfermedad Actual18 puntos de dolor  4-->
         <div class="section">
             <button id="expand-images" class="expandable-button light-blue">enfermedad actual</button>
@@ -1953,19 +1900,7 @@
             y = addText(doc, `Motivo: ${document.getElementById('motivo_consulta').value}`, margin, y);
 
             // Anamnesis
-            y = addText(doc, "Anamnesis:", margin, y);
-            y = addText(doc, `Localización: ${document.getElementById('localizacion').value}`, margin, y);
-            y = addText(doc, `Irradiación: ${document.getElementById('irradiacion').value}`, margin, y);
-            y = addText(doc, `Intensidad: ${document.getElementById('intensidad').value}`, margin, y);
-            y = addText(doc, `Inicio: ${document.getElementById('inicio').value}`, margin, y);
-            y = addText(doc, `Duración: ${document.getElementById('duracion').value}`, margin, y);
-            y = addText(doc, `Características: ${document.getElementById('caracteristicas').value}`, margin, y);
-            y = addText(doc, `Factores desencadenantes: ${document.getElementById('factores_desencadenantes').value}`, margin, y);
-            y = addText(doc, `Factores agravantes: ${document.getElementById('factores_agravantes').value}`, margin, y);
-            y = addText(doc, `Factores atenuantes: ${document.getElementById('factores_atenuantes').value}`, margin, y);
-            y = addText(doc, `Frecuencia: ${document.getElementById('frecuencia').value}`, margin, y);
-            y = addText(doc, `¿Qué observación relevante hicimos?: ${document.getElementById('observacion3').value}`, margin, y);
-
+        
 
             // Enfermedad Actual
             // dolor 
