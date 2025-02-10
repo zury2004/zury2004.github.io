@@ -781,7 +781,7 @@
                         placeholder="Describa los síntomas del embarazo"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="fum">FUM</label>
+                    <label for="fum">FUM +7 +3 -1</label>
                     <input type="date" id="fum" name="fum" placeholder="Fecha de la última menstruación">
                 </div>
                 <div class="form-group">
@@ -789,9 +789,8 @@
                     <select id="fpp" name="fpp">
                         <option value="NA">N/A</option>
                         <option value="fum">FUM</option>
-                        <option value="mas7dias">+7 días</option>
-                        <option value="mas1ano">+1 año</option>
-                        <option value="menos3meses">-3 meses</option>
+                        <option value="mas7dias">eco</option>
+                      
                     </select>
                     <input type="text" id="fpp_espacio" name="fpp_espacio"
                         placeholder="Espacio para detalles adicionales">
@@ -831,8 +830,12 @@
                         <input type="text" id="temperatura" name="temperatura" placeholder="Ingrese la temperatura">
                     </div>
                     <div class="form-group">
-                        <label for="glucosa">Glucosa</label>
-                        <input type="text" id="glucosa" name="glucosa" placeholder="Ingrese los niveles de glucosa">
+                        <label for="glucosa">talla </label>
+                        <input type="text" id="talla" name="glucosa" placeholder="Ingrese la talla">
+                    </div>
+                                        <div class="form-group">
+                        <label for="glucosa">peso </label>
+                        <input type="text" id="peso" name="" placeholder="Ingrese el peso">
                     </div>
                     <div class="form-group">
                         <label for="imc">IMC</label>
@@ -893,7 +896,7 @@
                             placeholder="Describa el examen de extremidades">
                     </div>
                     <div class="form-group">
-                        <label for="observacion14">Talla</label>
+                        <label for="observacion14">mamas</label>
                         <input type="text" id="observacion14" name="observacion14" placeholder="Escriba la observación">
                     </div>
                 </div>
@@ -2070,7 +2073,7 @@
             y = addText(doc, `Torax: ${document.getElementById('torax').value}`, margin, y);
             y = addText(doc, `Abdomen: ${document.getElementById('abdomen').value}`, margin, y);
             y = addText(doc, `Extremidades: ${document.getElementById('extremidades').value}`, margin, y);
-            y = addText(doc, `¿Qué observación relevante hicimos?: ${document.getElementById('observacion14').value}`, margin, y);
+            y = addText(doc, `¿mamas?: ${document.getElementById('observacion14').value}`, margin, y);
 
 
             // Examen Físico Gineco-obstétrico
